@@ -249,7 +249,7 @@ nav ul li {
     background: #FFFFFF;
     border: 1px solid #9CA1BE;
     border-radius: 35px;
-    padding: 20px;
+    padding: 10px;
     background: #FFFFFF;
     border: 1px solid #9CA1BE;
     border-radius: 48px;
@@ -392,11 +392,16 @@ footer div img:hover {
     border: none;
 }
 
-.box {
+/* .box {
     left: 50%;
     top: 50%;
     transform: translateX(-50%);
     transform: translateY(-50%);
+} */
+.play_btn {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .outline_none {
@@ -414,13 +419,14 @@ input[type="checkbox"] {
         padding-top: 20px;
         justify-content: center;
         align-items: center;
-        background-color: #0d5af3;
+        background-color: #60a9e0;
         left: -100%;
         width: 100%;
         height: 100vh;
-        top: 0;
+        top: 50px;
         transition: 0.9s cubic-bezier(0.58, -0.55, 0.265, 1.55);
-        z-index: 2;
+        z-index: 1;
+       
 
 
     }
@@ -431,7 +437,7 @@ input[type="checkbox"] {
         background-color: blue;
         display: flex;
         margin-bottom: 10px;
-        z-index: 3;
+
 
     }
 
@@ -440,7 +446,7 @@ input[type="checkbox"] {
         height: 40px;
         margin-right: 10px;
         padding-top: 20px;
-        z-index: 2;
+        z-index: 3;
 
     }
 
