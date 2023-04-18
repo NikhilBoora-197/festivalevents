@@ -18,8 +18,8 @@
 }
 
 .grid_container>div img:hover {
-    transform: scale(1.01);
-    transition: all .1s linear;
+    scale: 1.01;
+    transition: all 300ms linear;
     cursor: pointer;
 }
 
@@ -424,7 +424,7 @@ input[type="checkbox"] {
         margin-right: 10px;
         padding-top: 20px;
         z-index: 3;
-
+         
     }
 
     #mobileview:checked~ul.nav_responsive {
