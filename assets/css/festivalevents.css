@@ -82,8 +82,8 @@ body nav {
     font-weight: 400;
     font-size: 16px;
     line-height: 180%;
-    color: #000000;
-    opacity: 0.6;
+    color:#666666;
+    
 }
 
 .h2_fonts {
@@ -102,9 +102,7 @@ body nav {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color: #000000;
-    opacity: 0.6;
-
+    color:#666666;
 }
 
 .ml_12 {
@@ -117,8 +115,7 @@ body nav {
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
-    color: #000000;
-    opacity: 0.6;
+    color:#666666;
 }
 
 nav ul li {
@@ -207,8 +204,7 @@ nav ul li {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color: #000000;
-    opacity: 0.6;
+    color:#666666;
 }
 
 .jhone_doe {
@@ -261,16 +257,14 @@ nav ul li {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color: #000000;
-    opacity: 0.6;
+    color:#666666;
 }
 
 .date_tickets {
     font-family: 'Poppins', 'DM Sans';
     font-weight: 400;
     font-size: 16px;
-    color: #000000;
-    opacity: 0.6;
+    color:#666666;
 }
 
 .post_coments {
@@ -343,8 +337,7 @@ footer div img:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color: #000000;
-    opacity: 0.6;
+    color:#666666;
 }
 
 .flex_column {
@@ -367,8 +360,7 @@ footer div img:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color: #000000;
-    opacity: 0.6;
+    color:#666666;
 }
 
 .user_name {
@@ -392,12 +384,6 @@ footer div img:hover {
     border: none;
 }
 
-/* .box {
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%);
-    transform: translateY(-50%);
-} */
 .play_btn {
     top: 50%;
     left: 50%;

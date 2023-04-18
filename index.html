@@ -12,30 +12,32 @@
 </head>
 
 <body>
-    <div class="container position-sticky top-0 ">
-        <nav>
-            <div class="d-flex justify-content-between ">
-                <div class="d-flex z-3">
-                    <img src="./assets/image/png/page_logo.png" alt="page_logo">
-                    <h2 class="text_blue event_free">Events<span class="text_skyblue">Free</span></h2>
+    <section class="nav_box position-sticky top-0">
+        <div class="container  ">
+            <nav >
+                <div class="d-flex justify-content-between ">
+                    <div class="d-flex z-3">
+                        <img src="./assets/image/png/page_logo.png" alt="page_logo">
+                        <h2 class="text_blue event_free">Events<span class="text_skyblue">Free</span></h2>
+                    </div>
+                    <input type="checkbox" id="mobileview">
+                    <label for="mobileview">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <ul class="d-flex  align-items-center nav_responsive mt-3 ">
+                        <li><a class="text_black navbar_fonts" href="#"> HOME </a></li>
+                        <li class="mt_lg_20"><a class="text_black navbar_fonts " href="#"> EVENTS </a></li>
+                        <li class="mt_lg_20"><a class="text_black navbar_fonts " href="#"> FEED </a></li>
+                        <li class="mt_lg_20"><a class="text_black navbar_fonts " href="#"> USER NAME </a></li>
+                        <li class="mt_lg_20"><a class="text_white log_out me-1  " href="#"> Log Out </a></li>
+                    </ul>
                 </div>
-                <input type="checkbox" id="mobileview">
-                <label for="mobileview">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-                <ul class="d-flex  align-items-center nav_responsive mt-3 ">
-                    <li><a class="text_black navbar_fonts" href="#"> HOME </a></li>
-                    <li class="mt_lg_20"><a class="text_black navbar_fonts " href="#"> EVENTS </a></li>
-                    <li class="mt_lg_20"><a class="text_black navbar_fonts " href="#"> FEED </a></li>
-                    <li class="mt_lg_20"><a class="text_black navbar_fonts " href="#"> USER NAME </a></li>
-                    <li class="mt_lg_20"><a class="text_white log_out me-1  " href="#"> Log Out </a></li>
-                </ul>
-            </div>
 
-        </nav>
-    </div>
+            </nav>
+        </div>
+    </section>
     <header>
         <div class="container mt-5 ">
             <div class="row ">
@@ -137,13 +139,13 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <div class="position-relative ">
+                    <div class="position-relative z-n1 ">
                         <div class="d-flex justify-content-center ">
                             <img class="position-absolute play_btn" src="./assets/image/png/video_play_button.png"
                                 alt="">
 
                         </div>
-                        <img class="w-100" src="./assets/image/png/Rectangle_92.png" alt="" class="w-100">
+                        <img class="w-100 " src="./assets/image/png/Rectangle_92.png" alt="">
 
 
                     </div>
@@ -152,22 +154,22 @@
                 <h2 class="text-center h2_fonts ">Gallery</h2>
                 <div class="grid_container mt-5">
                     <div class="grid_item_1 ">
-                        <img src="./assets/image/png/Rectangle_93.png" alt="" class="w-100">
+                        <img src="./assets/image/png/Rectangle_93.png" alt="" class="w-100 border_radius_30">
                     </div>
                     <div class="grid_item_2 ">
-                        <img src="./assets/image/png/Rectangle_94.png" alt="" class="w-100">
+                        <img src="./assets/image/png/Rectangle_94.png" alt="" class="w-100 border_radius_30">
                     </div>
                     <div class="grid_item_3 ">
-                        <img src="./assets/image/png/Rectangle_95.png" alt="" class="w-100">
+                        <img src="./assets/image/png/Rectangle_95.png" alt="" class="w-100 border_radius_30">
                     </div>
                     <div class="grid_item_4 ">
-                        <img src="./assets/image/png/Rectangle_96.png" alt="" class="w-100">
+                        <img src="./assets/image/png/Rectangle_96.png" alt="" class="w-100 border_radius_30">
                     </div>
                     <div class="grid_item_5 ">
-                        <img src="./assets/image/png/Rectangle_99.png" alt="" class="w-100">
+                        <img src="./assets/image/png/Rectangle_99.png" alt="" class="w-100 border_radius_30">
                     </div>
-                    <div class="grid_item_6 ">
-                        <img src="./assets/image/png/Rectangle_101.png" alt="" class="w-100">
+                    <div class="grid_item_6  ">
+                        <img src="./assets/image/png/Rectangle_101.png" alt="" class="w-100 border_radius_30">
                     </div>
                 </div>
             </div>
@@ -187,7 +189,7 @@
                             Ut vitae dolor fringilla urna eget aliquet.</p>
                     </div>
                 </div>
-                <div class="comment_box d-flex justify-content-between align-items-center flex-column-sm">
+                <div class="comment_box d-flex justify-content-between align-items-center flex-column-sm mt-5">
                     <div class="d_flex">
                         <img src="/assets/image/png/Ellipse_18.png " alt="">
                         <input class=" border_none outline_none ps-2 add_comment" type="text"
@@ -324,6 +326,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <footer class="bg-black mt-5">
         <div class="container">
