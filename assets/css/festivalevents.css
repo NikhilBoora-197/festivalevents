@@ -19,14 +19,15 @@
 
 .grid_container>div img:hover {
     transform: scale(1.01);
-    border-radius: 30px;
     transition: all .1s linear;
     cursor: pointer;
-
-
 }
 
-body nav {
+.border_radius_30 {
+    border-radius: 30px;
+}
+
+.nav_box {
     background: #FFFFFF;
     box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.05);
 
@@ -82,8 +83,8 @@ body nav {
     font-weight: 400;
     font-size: 16px;
     line-height: 180%;
-    color:#666666;
-    
+    color: #666666;
+
 }
 
 .h2_fonts {
@@ -102,7 +103,7 @@ body nav {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color:#666666;
+    color: #666666;
 }
 
 .ml_12 {
@@ -115,7 +116,7 @@ body nav {
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
-    color:#666666;
+    color: #666666;
 }
 
 nav ul li {
@@ -204,7 +205,7 @@ nav ul li {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color:#666666;
+    color: #666666;
 }
 
 .jhone_doe {
@@ -257,14 +258,14 @@ nav ul li {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color:#666666;
+    color: #666666;
 }
 
 .date_tickets {
     font-family: 'Poppins', 'DM Sans';
     font-weight: 400;
     font-size: 16px;
-    color:#666666;
+    color: #666666;
 }
 
 .post_coments {
@@ -337,7 +338,7 @@ footer div img:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color:#666666;
+    color: #666666;
 }
 
 .flex_column {
@@ -360,7 +361,7 @@ footer div img:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color:#666666;
+    color: #666666;
 }
 
 .user_name {
@@ -412,7 +413,7 @@ input[type="checkbox"] {
         top: 50px;
         transition: 0.9s cubic-bezier(0.58, -0.55, 0.265, 1.55);
         z-index: 1;
-       
+
 
 
     }
