@@ -15,7 +15,7 @@
     margin-right: auto !important;
     padding-left: 12px !important;
     padding-right: 12px !important;
-}
+} 
 
 .grid_container>div img:hover {
     scale: 1.01;
@@ -107,6 +107,10 @@
 
 .ml_12 {
     margin-left: 12px;
+}
+
+.color_white {
+    color: #FFFFFF;
 }
 
 .add_comment {
@@ -370,11 +374,19 @@ footer div img:hover {
     color: #000000;
 }
 
-.show_more {
-    padding: 13px 24px;
+.show_more_box {
     width: 90px;
-    border-radius: 0px;
     background-color: #18205C;
+    padding: 13px 24px 13px 23px;
+}
+
+.show_more_font {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FFFFFF;
 }
 
 .border_none {
