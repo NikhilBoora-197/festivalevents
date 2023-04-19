@@ -212,6 +212,7 @@ nav ul li {
     font-size: 48px;
     line-height: 150%;
     color: #000000;
+
 }
 
 .show_unshow {
@@ -519,6 +520,14 @@ input[type="checkbox"] {
     .ms_4_md_0 {
         margin-left: 0;
     }
+
+    .ml_sm_40 {
+        margin-left: 40px;
+    }
+
+    .mt_sm_0 {
+        margin-top: 0 !important;
+    }
 }
 
 @media (min-width:992px) {
@@ -534,6 +543,9 @@ input[type="checkbox"] {
         justify-content: start;
     }
 
+    .lg_ml_12 {
+        margin-left: 12px;
+    }
 }
 
 @media (min-width:1200px) {
@@ -543,6 +555,10 @@ input[type="checkbox"] {
 
     .xl_mt_0 {
         margin-top: 0;
+    }
+
+    .xl_ml_30 {
+        margin-left: 30px;
     }
 
 
